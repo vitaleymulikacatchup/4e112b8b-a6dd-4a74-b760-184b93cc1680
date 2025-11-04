@@ -25,7 +25,7 @@ export default function Home() {
       cardStyle="layered-gradient"
       primaryButtonStyle="radial-glow"
       secondaryButtonStyle="glass"
-      showBlurBottom="false"
+      showBlurBottom={false}
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
