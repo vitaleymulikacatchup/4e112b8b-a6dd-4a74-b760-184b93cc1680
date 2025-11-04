@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
@@ -16,7 +16,7 @@ import { Award, Briefcase, Building, Code, DollarSign, Github, Linkedin, Message
 export default function Home() {
   return (
     <ThemeProvider
-      defaultButtonVariant="slide-background"
+      defaultButtonVariant="text-stagger"
       defaultTextAnimation="reveal-blur"
       borderRadius="rounded"
       contentWidth="large"
@@ -25,7 +25,7 @@ export default function Home() {
       cardStyle="layered-gradient"
       primaryButtonStyle="radial-glow"
       secondaryButtonStyle="glass"
-      showBlurBottom={false}
+      showBlurBottom="false"
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
